@@ -3,9 +3,9 @@
 <h3 align="center">My path of self-taught engineer with Open Source Society University</h3>
 
 
-###My current progress  ![10%](https://progress-bar.dev/10)
+### My current progress  ![10%](https://progress-bar.dev/10)
 
-###Trello dashboard you can find [here](https://trello.com/b/WHw9JBv1/ossu).
+### Trello dashboard you can find [here](https://trello.com/b/WHw9JBv1/ossu).
 
 
   <a href="https://github.com/ossu/computer-science">
