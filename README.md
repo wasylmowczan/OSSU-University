@@ -1,17 +1,16 @@
 ![Open Source Society University (OSSU)](http://i.imgur.com/kYYCXtC.png)
 
-<h3 align="center">Open Source Society University</h3>
-<p align="center">
-  Path to a free self-taught education in Computer Science!
-</p>
-<p align="center">
-  <a href="https://github.com/sindresorhus/awesome">
-    <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
-  </a>
+<h3 align="center">My path of self-taught engineer with Open Source Society University</h3>
+
+
+###My current progress  ![10%](https://progress-bar.dev/10)
+
+###Trello dashboard you can find [here](https://trello.com/b/WHw9JBv1/ossu).
+
+
   <a href="https://github.com/ossu/computer-science">
 	<img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg">
   </a>
-</p>
 
 # Contents
 
@@ -34,16 +33,6 @@ as it is assumed most of the people following this curriculum are already educat
 The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.,
 but specifically chosen to meet the following criteria.
 
-**Courses must**:
-- Be open for enrollment
-- Run regularly (ideally in self-paced format, otherwise running multiple times per year)
-- Be of generally high quality in teaching materials and pedagogical principles
-- Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science 
-
-When no course meets the above criteria, the coursework is supplemented with a book.
-When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/readings.md).
-
 **Organization**. The curriculum is designed as follows:
 - *Intro CS*: for students to try out CS and see if it's right for them
 - *Core CS*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
@@ -61,36 +50,16 @@ Note that Coursera offers [financial aid](https://learner.coursera.help/hc/en-us
 Decide how much or how little to spend based on your own time and budget;
 just remember that you can't purchase success!
 
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-- We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom, as they have already been [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) by their prerequisites.
-- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
-
-**Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
-*Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
-
-**[How to contribute](CONTRIBUTING.md)**
-
-**[Getting help](HELP.md)** (Details about our FAQ and chatroom)
-
-# Community
-
-- We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/5pUhfpX) This should be your first stop to talk with other OSSU students. Why don't you introduce yourself right now? [Join the CS channel in OSSU Discord](https://discord.gg/5pUhfpX)
-- You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
-- Subscribe to our [newsletter](https://tinyletter.com/ossu).
-- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-- Note: There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](./FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
-
 # Curriculum
 
 **Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
 
-- [Prerequisites](#prerequisites)
-- [Intro CS](#intro-cs)
-  - [Introduction to Programming](#introduction-to-programming)
-  - [Introduction to Computer Science](#introduction-to-computer-science)
-- [Core CS](#core-cs)
-  - [Core programming](#core-programming)
+- [Prerequisites](#prerequisites)  (done)
+- [Intro CS](#intro-cs) (done)
+  - [Introduction to Programming](#introduction-to-programming) (done)
+  - [Introduction to Computer Science](#introduction-to-computer-science) (done)
+- [Core CS](#core-cs) (WIP)
+  - [Core programming](#core-programming) (WIP)
   - [Core math](#core-math)
   - [CS Tools](#cs-tools)
   - [Core systems](#core-systems)
@@ -428,101 +397,3 @@ Courses | Duration | Effort | Prerequisites
 [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none
 [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/week | One year programming experience
 [Game Design and Development (Specialization)](https://www.coursera.org/specializations/game-development) | 6 months | 5 hours/week | programming, interactive design
-
-## Final project
-
-OSS University is **project-focused**.
-You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real-world problem.
-
-After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired.
-Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge.
-You can create something entirely new, or you can find an existing project that needs help via websites like
-[CodeTriage](https://www.codetriage.com/)
-or
-[First Timers Only](http://www.firsttimersonly.com/).
-
-Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](#advanced-applications);
-whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly.
-In some cases, it may not be permitted;
-do **not** violate your course's Honor Code!
-
-Put the OSSU-CS badge in the README of your repository!
-[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
-
-- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
-- HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
-
-### Evaluation
-
-Upon completing your final project, submit your project's information to [PROJECTS](PROJECTS.md)
-via a pull request and use our [community](#community) channels to announce it to your fellow students.
-
-Your peers and mentors from OSSU will then informally evaluate your project.
-You will not be "graded" in the traditional sense — everyone has their own measurements for what they consider a success.
-The purpose of the evaluation is to act as your first announcement to the world that you are a computer scientist
-and to get experience listening to feedback — both positive and negative — and taking it in stride.
-
-The final project evaluation has a second purpose: to evaluate whether OSSU,
-through its community and curriculum, is successful in its mission to guide independent learners in obtaining a world-class computer science education.
-
-### Cooperative work
-
-You can create this project alone or with other students!
-**We love cooperative work**!
-Use our [channels](#community) to communicate with other fellows to combine and create new projects!
-
-### Which programming languages should I use?
-
-My friend, here is the best part of liberty!
-You can use **any** language that you want to complete the final project.
-
-The important thing is to **internalize** the core concepts and to be able to use them with whatever tool (programming language) that you wish.
-
-## Congratulations
-
-After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science. Congratulations!
-
-What is next for you? The possibilities are boundless and overlapping:
-
-- Look for a job as a developer!
-- Check out the [readings](extras/readings.md) for classic books you can read that will sharpen your skills and expand your knowledge.
-- Join a local developer meetup (e.g. via [meetup.com](https://www.meetup.com/)).
-- Pay attention to emerging technologies in the world of software development:
-  + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
-  + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
-  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development.
-
-![keep learning](http://i.imgur.com/REQK0VU.jpg)
-
-# Code of conduct
-[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
-
-## How to show your progress
-
-1. Create an account in [Trello](https://trello.com/).
-1. Copy [this](https://trello.com/b/IScNSzsI/ossu-compsci) board to your personal account.
-See how to copy a board [here](https://help.trello.com/article/802-copying-cards-lists-or-boards).
-
-Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
-
-We also have **labels** to help you have more control through the process.
-The meaning of each of these labels is:
-
-- `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
-- `Extra Resources`: cards with that label represent courses that were added by the student.
-- `Doing`: cards with that label represent courses the student is current doing.
-- `Done`: cards with that label represent courses finished by the student.
-Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
-- `Section`: cards with that label represent the section that we have in our curriculum.
-Those cards with the `Section` label are only to help the organization of the Done column.
-You should put the *Course's cards* below its respective *Section's card*.
-
-The intention of this board is to provide our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc.
-You can change the status of your board to be *public* or *private*.
-
-# Team
-
-* **[Eric Douglas](https://github.com/ericdouglas)**: founder of OSSU
-* **[hanjiexi](https://github.com/hanjiexi)**: lead technical maintainer
-* **[waciumawanjohi](https://github.com/waciumawanjohi)**: lead academic maintainer
-* **[Contributors](https://github.com/ossu/computer-science/graphs/contributors)**
